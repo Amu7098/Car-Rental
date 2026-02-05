@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+  color: #222;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+nav {
+  font-family: "Poppins", sans-serif;
+}
+
+.banner {
+  /* background-image: url('/hero-bg.jpg'); */
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      /* top color (semi-dark) */ rgba(0, 0, 0, 0.1)
+        /* bottom color (same or different) */
+    ),
+    url("/hero-bg.jpg");
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* start from top */
+  align-items: center; /* center horizontally */
+  height: 100%;
+  padding-top: 20vh; /* push down 20% from top */
+  text-align: center;
+}
+
+.banner-content h1 {
+  color: #fff;
+  font-size: 5vw;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-shadow: 2px 2px 8px rgba(240, 234, 234, 0.754); /* shadow effect */
+}
