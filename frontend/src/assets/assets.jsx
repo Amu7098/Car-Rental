@@ -1,11 +1,15 @@
-import car_image1 from "./car (1).jpg"
-import car_image2 from "./car (2).jpg"
-import car_image3 from "./car (3).jpg"
+import car_image1 from "./car (1).jpg";
+import car_image2 from "./car (2).jpg";
+import car_image3 from "./car (3).jpg";
 import car_image4 from "./car (4).jpg";
 import car_image5 from "./car (5).jpg";
 import car_image6 from "./car (6).jpg";
 
-export const cityList=['Chandigarh','Mohali','Panchkula']
+import testimonial1 from "./testimonial (1).jpg";
+import testimonial2 from "./testimonial (2).jpg";
+import testimonial3 from "./testimonial (3).jpg";
+
+export const cityList = ["Chandigarh", "Mohali", "Panchkula"];
 
 export const dummyCarData = [
   {
@@ -115,5 +119,32 @@ export const dummyCarData = [
       "Compact and budget-friendly hatchback with excellent mileage. Best for daily city usage.",
     isAvailable: false,
     createdAt: "2026-02-12",
+  },
+];
+
+export const testimonials = [
+  {
+    _id: 1,
+    name: "John",
+    location: "chandigarh",
+    image: testimonial1,
+    rating: "5",
+    comment:"I am very happy from there service and i wnat to recommend this to everyone "
+  },
+  {
+    _id: 2,
+    name: "Menrev",
+    location: "chandigarh",
+    image: testimonial2,
+    rating: "5",
+    comment:"I am fully satisfied from there service and quality of the cars"
+  },
+  {
+    _id: 3,
+    name: "Bathash",
+    location: "chandigarh",
+    image: testimonial3,
+    rating: "5",
+    comment:"I am happy to found this platform and using it from long time "
   },
 ];

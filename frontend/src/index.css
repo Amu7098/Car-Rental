@@ -78,3 +78,34 @@ nav {
 .vehicle-card:hover .vehicle-img {
   transform: scale(1.05);
 }
+
+
+.car-banner{
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.68),
+      /* top color (semi-dark) */ rgba(0, 0, 0, 0.625)
+        /* bottom color (same or different) */
+    ),
+    url("/hero-banner3.jpg");
+    height: 25vh;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+
+}
+.car-banner-text{
+  display: flex;
+  flex-direction: column;
+  height: 25vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.car-banner-text h5{
+  font-size: 6vh;
+}
+.car-banner-text p{
+  font-size: 3vh;
+}
