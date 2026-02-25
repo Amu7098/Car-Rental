@@ -5,6 +5,7 @@ import Home from "./pages/Home"
 import CarDetails from "./pages/CarDetails"
 import Cars from "./pages/Car"
 import MyBookings from "./pages/MyBookings"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/Cars" element={<Cars />} />
         <Route path="/MyBookings" element={<MyBookings />} />
       </Routes>
+      <Footer/>
     </div>
   );
 }

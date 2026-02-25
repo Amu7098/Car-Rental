@@ -88,7 +88,7 @@ nav {
         /* bottom color (same or different) */
     ),
     url("/hero-banner3.jpg");
-    height: 25vh;
+    height: 35vh;
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -132,4 +132,39 @@ nav {
 .newsletter-form button {
   padding: 12px 25px;
   font-weight: 500;
+}
+
+/* for footer section page */
+
+.footer-section {
+  background-color: #111;
+  color: #fff;
+}
+
+.footer-section h5 {
+  color: #fff;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+  cursor: pointer;
+  color: #bbb;
+  transition: 0.3s;
+}
+
+.footer-links li:hover {
+  color: #fff;
+  padding-left: 5px;
+}
+
+.footer-icon {
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #bbb;
+}
+
+.footer-icon:hover {
+  color: #fff;
+  transform: translateY(-3px);
 }

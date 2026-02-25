@@ -2,7 +2,7 @@ import React from "react";
 
 function Newsletter() {
   return (
-    <div className="newsletter-section py-5 mt-5">
+    <div className="newsletter-section py-5 mt-4">
       <div className="container text-center">
         <h2 className="fw-bold mb-3">Never Miss a Deal</h2>
 
