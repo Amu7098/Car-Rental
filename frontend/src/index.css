@@ -109,3 +109,27 @@ nav {
 .car-banner-text p{
   font-size: 3vh;
 }
+
+/* for newsletter section page */
+
+.newsletter-section {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  border-radius: 20px;
+}
+
+.newsletter-input {
+  max-width: 400px;
+  padding: 12px 20px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+}
+
+.newsletter-input:focus {
+  box-shadow: none;
+  border-color: #000;
+}
+
+.newsletter-form button {
+  padding: 12px 25px;
+  font-weight: 500;
+}
