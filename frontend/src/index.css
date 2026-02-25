@@ -57,3 +57,24 @@ nav {
   font-weight: 500;
   text-shadow: 2px 2px 8px rgba(240, 234, 234, 0.754); /* shadow effect */
 }
+
+
+/* for feature section page */
+.vehicle-card {
+  transition: all 0.3s ease;
+}
+
+.vehicle-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.vehicle-img {
+  transition: transform 0.4s ease;
+  height: 220px;
+  object-fit: cover;
+}
+
+.vehicle-card:hover .vehicle-img {
+  transform: scale(1.05);
+}

@@ -1,9 +1,11 @@
 import React from 'react'
 import Banner from '../components/Banner'
-
+import FeatureSection from '../components/FeatureSection'
 function Home() {
   return (
-    <div><Banner/></div>
+    <div><Banner/>
+    <FeatureSection/>
+    </div>
   )
 }
 
